@@ -1,5 +1,5 @@
-module Api
-  class MatchController < Api::BaseController
+module V1
+  class MatchController < V1::BaseController
 
     def results
       # TODO: implement this

@@ -1,5 +1,5 @@
-module Api
-  class TestController < Api::BaseController
+module V1
+  class TestController < V1::BaseController
 
     skip_before_filter :authenticate_user!, only: %i[empty_response]
 

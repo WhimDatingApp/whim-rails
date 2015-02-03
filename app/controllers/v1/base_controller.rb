@@ -1,4 +1,4 @@
-module Api
+module V1
   class BaseController < ActionController::Base
 
     before_filter :authenticate_user!

@@ -1,5 +1,5 @@
-module Api
-  class VenueController < Api::BaseController
+module V1
+  class SchoolController < V1::BaseController
 
     def search
       # TODO: implement this

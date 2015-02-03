@@ -45,7 +45,7 @@ Rails.application.routes.draw do
     post "/user/save_city"            => "user#save_city"
     post "/user/schedule"             => "user#schedule"
     post "/user/schedule/set"         => "user#set_schedule"
-    post "/user/sendInvites"          => "user#send_invites"
+    post "/user/sendInvites"          => "user#send_invites", as: "user_send_invites"
     get  "/user/:name/profile"        => "user#user_profile" #, constraints: { name: /.../ }
     post "/user/verify"               => "user#verify"
     post "/user/update"               => "user#update"

@@ -1,5 +1,5 @@
-module Api
-  class MiscController < Api::BaseController
+module V1
+  class MiscController < V1::BaseController
 
     def app_store_ids
       # TODO: implement this

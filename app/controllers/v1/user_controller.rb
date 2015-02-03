@@ -1,5 +1,5 @@
-module Api
-  class UserController < Api::BaseController
+module V1
+  class UserController < V1::BaseController
 
     def attributes
       # TODO: implement this

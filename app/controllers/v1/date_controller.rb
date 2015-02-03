@@ -1,5 +1,5 @@
-module Api
-  class DateController < Api::BaseController
+module V1
+  class DateController < V1::BaseController
 
     def cancel
       # TODO: implement this
