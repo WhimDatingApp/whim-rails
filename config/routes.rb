@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   # TODO: do we actually need this route or anything potentially under it?
   # /test/media => serves files under /test/media (???)
 
-  namespace :api do
+  # ===== API V1 ===================================================================================
+
+  namespace :v1 do
 
     # ----- DATES ----------------------------------------------------------------------------------
 
