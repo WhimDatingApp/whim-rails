@@ -10,5 +10,6 @@ module Api
     def ping
       render json: {response: "pong"}
     end
+
   end
 end

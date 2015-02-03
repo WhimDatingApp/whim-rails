@@ -1,11 +1,11 @@
 module Api
-  class MiscController < Api::BaseController
+  class MatchController < Api::BaseController
 
-    def app_store_ids
+    def results
       # TODO: implement this
     end
 
-    def terms_of_service
+    def review
       # TODO: implement this
     end
 

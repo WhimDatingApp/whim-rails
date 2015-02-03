@@ -8,6 +8,7 @@ module Api
     def authenticate_user!
       # TODO: implement this
     end
+
   end
 end
 
