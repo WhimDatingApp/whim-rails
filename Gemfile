@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'pg', '0.18.1'
 gem 'jbuilder', '2.2.6'
+gem 'responders', '2.1.0'
 
 
 group :development, :test do
